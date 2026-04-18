@@ -6,7 +6,7 @@ export default function App(){
   const [password,setPassword]=useState("");
   const [token,setToken]=useState("");
 
-  const API = "mongodb+srv://tradingadmin:<db_MhxirzsiEcSyTQY3>@cluster0.bvzqjfu.mongodb.net/?trading-app=Cluster0";
+  const API = "mongodb+srv://adminpanel:<i1GtENEh3z2kOGol>@cluster0.uqvx5de.mongodb.net/?trading-app=Cluster0";
 
   const login = async ()=>{
     const res = await fetch(API+"/login",{
